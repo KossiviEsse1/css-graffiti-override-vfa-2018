@@ -30,10 +30,10 @@ body {
   display: none;
 }
 
-#wall #tag-2 {
-  background: url(../images/tag-2.png) no-repeat;
-  z-index: 6;
-  display: block;
+#wall ~ #tag-2 {
+  /*background: url(../images/tag-2.png) no-repeat;
+  z-index: 6;*/
+  display: none;
 }
 
 div#wall #tag-3.slick {
